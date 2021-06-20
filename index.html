@@ -9,7 +9,8 @@
 
 	<link rel="icon" href="assets/logo1.jpeg">
 	<!-- Place favicon.ico in the root directory -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/colors.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -17,7 +18,7 @@
 <body>
 	<header id="header" class="nav--container">
 			<div class="nav-left">
-				<a href="#contact" class="hyper-links-dark">Contact</a>
+				<a href="#contact" class="hyper-links-dark" style="color: #41ff00;">Contact</a>
 			</div>
 			<div class="nav-right">
 				<a href="#about" class="hyper-links-dark">About</a>
@@ -27,15 +28,20 @@
 	</header>
 	
 	<div class="section--hero">
-		<div class="hero-left">
-			<div class="hero-left-content">
-				<span class="text--heading">Naman Agarwal.</span><br/>
-				<span class="text--subtitle">Hey, my name is Naman Agarwal.</span><br />
-				<span class="text--subtitle">I am a </span>
-				<span class="text--subtitle">Web Developer.</span><br/><br/><br/><br/>
-				<span class="text--normal bg--secondry">Frontend</span><br/><br/>
-				<span class="text--normal bg--secondry">Backend</span><br/><br/>
-				<span class="text--normal bg--secondry">Problem Solver</span>
+		<div class="hero--left">
+			<div class="hero--left-content">
+				<div class="info--banner">
+					<span class="text--heading">Naman Agarwal.</span>
+					<span class="text--subtitle-spaced-grey">WEB</span>
+					<span class="text--subtitle-spaced-grey">DEVELOPER</span>
+					<hr/>
+				</div>
+				<div class="skills--banner">
+					<span class="text--normal bg--secondry">Frontend</span>
+					<hr />
+					<span class="text--normal bg--secondry">Backend</span>
+					
+				</div>	
 			</div>
 		</div>
 		<div class="hero-right">
@@ -49,95 +55,167 @@
 		</div>
 	</div>
 	<!-- section-1 -->
+
 	<div id="about" class="section--container">
-		<div class="text--normal-primary text--center">{About}</div>
-		<div class="about--container">
-			<div class="text--subtitle">I am a Computer Science student, currently pursuing my Bachelor's at VIT Chennai, India. I am highly fasinated by technology and apart from being a Web Developer I have been involed in others domains like Blockchain and Machine Learing. Web Development being my area of expertise, I have worked on many personal, open source and freelance projects.</div><br/>
-			<div class="text--subtitle">My development journey involves a ton of leaning and I always try to go as deep as possible.</div><br />
-			<div class="text--subtitle">The fact that I can help people grow by just being a nerd and working on my Computer keeps me motivated. New technologies emerge frequetly and I am always keen to learn such new technologies which makes my skills relevant to the market.</div>	
-		</div>
-		<div class="text--normal-primary text--center">{Technologies}</div>
-		<div class="about--container">
-			<div class="about--links">
-				<a href="" class="hyper-icons-light"><i class="fab fa-java fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-js fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-html5 fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-css3-alt fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-react fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-node fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-docker fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-android fa-10x"></i></a>
-				<a href="" class="hyper-icons-light"><i class="fab fa-figma fa-10x"></i></a>
+		<div class="shell bg--secondry">
+			<div class="shell--row1">
+				<div class="shell--ps1 text--normal">
+					[naman@root]$
+				</div>
+				<div class="shell--command text--normal">whoami</div>
 			</div>
+			<div class="shell--output text--subtitle">
+				<div class="output--content">
+					I am a Computer Science student, currently pursuing my Bachelor's at VIT Chennai, India. I am highly fasinated by technology and apart from being a Web Developer I have been involed in others domains like Blockchain and Machine Learing. Web Development being my area of expertise, I have worked on many personal, open source and freelance projects.
+					My development journey involves a ton of leaning and I always try to go as deep as possible.
+					The fact that I can help people grow by just being a nerd and working on my Computer keeps me motivated. New technologies emerge frequetly and I am always keen to learn such new technologies which makes my skills relevant to the market.
+				</div>		
+			</div>	
+		</div>	
+	</div>
+
+
+
+	<div id="about" class="section--container">
+		<div class="shell bg--secondry">
+			<div class="shell--row1">
+				<div class="shell--ps1 text--normal">
+					[naman@root]$
+				</div>
+				<div class="shell--command text--normal">cat ./package.json</div>
+			</div>
+			<div class="shell--output text--normal">
+				<div class="tech--links">
+					<a href="" class="hyper-icons-dark"><i class="fab fa-java fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-js fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-html5 fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-css3-alt fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-react fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-node fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-docker fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-android fa-2x"></i></a>
+					<a href="" class="hyper-icons-dark"><i class="fab fa-figma fa-2x"></i></a>
+				</div>		
+			</div>	
 		</div>	
 	</div>
 	<!-- section-2-about -->
 
 	<div id="experience" class="section--container">
-		<div class="text--normal-primary text--center">{Experience}</div><br/>
-		<div class="exp--container">
-			<div class="exp--content">
-				<div class="text--normal bg--secondry">Pharmiq.co</div>
-				<div class="text--subtitle">Fullstack Intern at Pharmiq, a US based startup. I am working on technologies like react, docker, golang.<br />April 2021</div>
+		<div class="shell bg--secondry">
+			<div class="shell--row1">
+				<div class="shell--ps1 text--normal">
+					[naman@root]$
+				</div>
+				<div class="shell--command text--normal">ls -la ./experience</div>
 			</div>
+			<div class="shell--output text--subtitle">
+				<div class="output--content">
+					<div class="exp--container">
+						<div class="exp--content">
+							<div class="text--normal bg--secondry">Pharmiq</div>
+							<div class="text--subtitle">Fullstack Intern at Pharmiq, a US based startup. I am working on technologies like react, docker, golang.<br />April 2021</div>
+						</div>
+						
+						<div class="exp--content">
+							<div class="text--normal bg--secondry">GRP India</div>
+							<div class="text--subtitle">SDE at General Railway Police, Prayagraj, India. Working with my team, we developed a Job Assignment Desktop application which automated the various task and increased the efficiecy of the station by 10%. I worked on technologies like electron, mongodb, heroku, aws.<br />Nov 2020 - Jan 2021</div>
+						</div>
 			
-			<div class="exp--content">
-				<div class="text--normal bg--secondry">GRP India</div>
-				<div class="text--subtitle">SDE at General Railway Police, Prayagraj, India. Working with my team, we developed a Job Assignment Desktop application which automated the various task and increased the efficiecy of the station by 10%. I worked on technologies like electron, mongodb, heroku, aws.<br />Nov 2020 - Jan 2021</div>
-			</div>
-
-		</div>	
+					</div>
+				</div>		
+			</div>	
+		</div>
+			
 	</div>
 	<!-- section-3-experience -->
 
 	<div id="projects" class="section--container">
-		<div class="text--normal-primary text--center">{Projects}</div><br/>
-		<div class="projects--container">
-			<div class="projects--content">
-				<div class="text--normal bg--secondry">Sorting Visualizer</div>
-				<div class="text--subtitle">Sorting Algorithm Visualizer made using Python's kivy library
-					<a href="https://github.com/divinenaman/SortingVisualizer" class="hyper-icons-light"><i class="fab fa-github fa-1x"></i></a>
+		<div class="shell bg--secondry">
+			<div class="shell--row1">
+				<div class="shell--ps1 text--normal">
+					[naman@root]$
 				</div>
+				<div class="shell--command text--normal">less projects.list</div>
+			</div>
+			<div class="shell--output text--subtitle">
+				<div class="output--content">
+					<div class="projects--container">
+						<div class="projects--content">
+							<div class="text--normal bg--secondry">Sorting Visualizer</div>
+							<div class="text--subtitle">Sorting Algorithm Visualizer made using Python's kivy library
+								<a href="https://github.com/divinenaman/SortingVisualizer" class="hyper-icons-dark"><i class="fab fa-github fa-1x"></i></a>
+							</div>
+						</div>
+						
+						<div class="projects--content">
+							<div class="text--normal bg--secondry">Invoice Central</div>
+							<div class="text--subtitle">Invoice generating Web App for offline shops. It automates the process of generating and sending the invoices. It is made using html, css and node.js
+								<a href="https://github.com/divinenaman/Invoice-Central" class="hyper-icons-dark"><i class="fab fa-github fa-1x"></i></a>
+							</div>
+						</div>
+			
+						<div class="projects--content">
+							<div class="text--normal bg--secondry">Confab Video Chat</div>
+							<div class="text--subtitle">A video chat Web App made using webrtc, websockets, node.js <br/>
+								<a href="https://github.com/divinenaman/confab-video-chat-app" class="hyper-icons-dark"><i class="fab fa-github fa-1x"></i></a>
+							</div>
+						</div>
+			
+					</div>
+				</div>		
 			</div>
 			
-			<div class="projects--content">
-				<div class="text--normal bg--secondry">Invoice Central</div>
-				<div class="text--subtitle">Invoice generating Web App for offline shops. It automates the process of generating and sending the invoices. It is made using html, css and node.js
-					<a href="https://github.com/divinenaman/Invoice-Central" class="hyper-icons-light"><i class="fab fa-github fa-1x"></i></a>
-				</div>
-			</div>
-
-			<div class="projects--content">
-				<div class="text--normal bg--secondry">Confab Video Chat</div>
-				<div class="text--subtitle">A video chat Web App made using webrtc, websockets, node.js <br/>
-					<a href="https://github.com/divinenaman/confab-video-chat-app" class="hyper-icons-light"><i class="fab fa-github fa-1x"></i></a>
-				</div>
-			</div>
-
-		</div>	
 	</div>
 	<!-- section-4-projects -->
 
 	<div id="contact" class="section--container">
-		<div class="text--normal-primary text--center">{Contact}</div><br/>
-		<div class="contact--container">
-			<div class="contact--content">
-				<div class="text--normal bg--secondry">Email</div>
-				<div class="text--heading">namanddev7@gmail.com</div>
+		<div class="shell bg--secondry">
+			<div class="shell--row1">
+				<div class="shell--ps1 text--normal">
+					[naman@root]$
+				</div>
+				<div class="shell--command text--normal">cat ./contact.js</div>
 			</div>
+			<div class="shell--output text--subtitle">
+				<div class="output--content">
+					<div class="contact--container">
+						<div class="contact--content">
+							<div class="text--normal bg--secondry">Email</div>
+							<div class="text--subtitle">namanddev7@gmail.com</div>
+						</div>
+						<div class="contact--content">
+							<div class="text--normal bg--secondry">Phone</div>
+							<div class="text--subtitle">9651111184</div>
+						</div>
+						<div class="contact--content">
+							<div class="text--normal bg--secondry">LinkedIn</div>
+							<div class="text--subtitle"><a href="https://www.linkedin.com/in/naman-agarwal-01/" class="hyper-icons-dark"><i class="fab fa-linkedin fa-2x"></i></a></div>
+						</div>
+						<div class="contact--content">
+							<div class="text--normal bg--secondry">Github</div>
+							<div class="text--subtitle"><a href="https://github.com/divinenaman" class="hyper-icons-dark"><i class="fab fa-github fa-2x"></i></a></div>
+						</div>
+						<div class="contact--content">
+							<div class="text--normal bg--secondry">Social</div>
+							<div class="text--subtitle"><a href="" class="hyper-icons-dark"><i class="fab fa-instagram fa-2x"></i></a></div>
+						</div>
+					</div>
+				</div>		
+			</div>	
 		</div>	
 	</div>
 	<!-- section-5-contact -->
-
+	<div class="footer--container">
 	<footer>
-		<div class="footer--container bg--secondry text--center">
+		<div class="bg--secondry text--center">
 			<div class="text--subtitle">
-				Naman Agarwal
-				<a href="" class="hyper-icons-dark"><i class="fas fa-copyright fa-1x"></i></a>,
+				Maintained by Naman Agarwal
+				<a href="" class="hyper-icons-dark"><i class="fas fa-copyright fa-1x"></i></a>
 				2021
 			</div>
 		</div>
 	</footer>
-
+	</div>
 </body>
 </html>
