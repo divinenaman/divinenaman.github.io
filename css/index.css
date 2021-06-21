@@ -359,7 +359,7 @@ body {
 .shell {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 10% 90%;
+	grid-auto-flow: row;
 	border-radius: 1%;
 	border: solid 25px #000;
 	width: 100%;
@@ -389,13 +389,14 @@ body {
 	margin-bottom: 10px;
 }
 
-.about--container {
+.about--content {
 	width: 80%;
-	margin: 3rem auto;
+	margin: 5rem auto;
 }
 
 
 .shell .tech--links {
+	margin: 5rem auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -461,7 +462,7 @@ body {
 
 .contact--container {
 	width: 80%;
-	margin: 0 auto;
+	margin: 5rem auto;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	grid-auto-rows: 1fr;
