@@ -13,9 +13,10 @@ body,html {
 }
 
 body {
-	padding: 0 8%;
+	padding: 0 10%;
 	margin: 0 auto;
 }
+
 
 @media (max-width: 800px){
 	body,html {
@@ -55,7 +56,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin: 10rem auto;
+	margin: 0 auto;
+	padding: 5rem 0;
 	width: 100%;
 }
 
@@ -373,7 +375,7 @@ body {
 }
 
 .shell .shell--ps1 {
-	color: #41ff00;
+	color: var(--font-contrast1);
 }
 .shell .shell--command {
 	margin-left: 10px;
@@ -402,6 +404,7 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 2rem;
+	font-size: 5rem;
 }
 
 
@@ -466,7 +469,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	grid-auto-rows: 1fr;
-	grid-gap: 2rem;
+	grid-gap: 5rem;
 }
 
 .contact--container .contact--content {
