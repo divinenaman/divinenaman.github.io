@@ -217,14 +217,18 @@ body {
 @media (max-width: 800px){
 	.nav--container .nav-right {
 		background-color: var(--bg-primary);
+		flex-wrap: nowrap;
+	}
+
+	.nav--container .nav-right a {
+		border-radius: 0;
+	}
+
+	.nav--container .nav-left a {
+		border-radius: 0;
 	}
 }
 
-@media (max-width: 500px){
-	.nav--container .nav-right {
-		background-color: var(--bg-primary);
-	}
-}
 
 .section--hero {
 	width: 100%;
@@ -276,12 +280,24 @@ body {
 
 
 .section--hero .hero-right {
+	box-shadow:	0 37px 9.7px -6px rgba(0, 0, 0, 0.039),0 61px 24.2px -6px rgba(0, 0, 0, 0.051),0 100px 77px -6px rgba(0, 0, 0, 0.07);
 	background-color: var(--bg-secondry);
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 	padding-top: 5rem;
 	width: 100%;
+	animation: clip-to-normal 1s ease-in;
+}
+
+@keyframes clip-to-normal {
+	0% {
+		clip-path: circle(30% at center);
+	}
+
+	100% {
+		clip-path: circle(100% at center);
+	}
 }
 
 .section--hero .hero-right .hero-right-content {
@@ -290,6 +306,7 @@ body {
 	align-items: flex-start;
 	flex-direction: column;
 	width: 100%;
+	margin-top: 65px;
 }
 
 .section--hero .hero-right .hero-right-content img {
