@@ -7,14 +7,14 @@ images = [
         link: "https://unsplash.com/photos/QGvyw8py8xk/download?ixid=MnwxMjA3fDB8MXxhbGx8MXx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
         caption: "Moments before cats and dogs"
     },
-    {
-        link: "https://unsplash.com/photos/_rkd9QXS-Aw/download?ixid=MnwxMjA3fDB8MXxhbGx8NHx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
-        caption: "Naturally Noumenon"
-    },
-    {
-        link: "https://unsplash.com/photos/ArXOO23c0mQ/download?ixid=MnwxMjA3fDB8MXxhbGx8M3x8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
-        caption: "Shades of summer popping like soda"
-    }
+    // {
+    //     link: "https://imgur.com/YfMk7bd",
+    //     caption: "Naturally Noumenon"
+    // },
+    // {
+    //     link: "https://i.imgur.com/JpMiNan.jpg",
+    //     caption: "Shades of summer popping like soda"
+    // }
 ]
 
 
@@ -29,6 +29,7 @@ for (const img of images) {
     item.classList.add("gallery--item")
 
     imgNode.src = img.link
+    
     caption.textContent = img.caption
 
     item.appendChild(imgNode)
