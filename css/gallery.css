@@ -41,7 +41,8 @@ html {
 }
 
 .gallery--item img {
-  height: 80vh;
+  height: auto;
   max-height: 80vh;
   width: auto;
+  max-width: 100%;
 }
