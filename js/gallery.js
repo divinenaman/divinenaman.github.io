@@ -1,5 +1,20 @@
 images = [
-    "https://instagram.fdel7-1.fna.fbcdn.net/v/t51.2885-15/288742109_178432734579326_1814995138200995095_n.webp?stp=dst-jpg_e35&_nc_ht=instagram.fdel7-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=tzJargIqPN0AX-Ry5Rx&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg2MzQwMzkzMzQzMjYxMTU3MQ%3D%3D.2-ccb7-5&oh=00_AT_Kp8Zmvvtxe_k-UQGE4zVdyvfaq6Rm1Ur1-mP9fezL2w&oe=62B4598E&_nc_sid=30a2ef",
+    {
+        link: "https://unsplash.com/photos/dnAWPVyaUGc/download?ixid=MnwxMjA3fDB8MXxhbGx8Mnx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
+        caption: "A sotry but the lack of words"
+    },
+    {
+        link: "https://unsplash.com/photos/QGvyw8py8xk/download?ixid=MnwxMjA3fDB8MXxhbGx8MXx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
+        caption: "Moments before cats and dogs"
+    },
+    {
+        link: "https://unsplash.com/photos/_rkd9QXS-Aw/download?ixid=MnwxMjA3fDB8MXxhbGx8NHx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
+        caption: "Naturally Noumenon"
+    },
+    {
+        link: "https://unsplash.com/photos/ArXOO23c0mQ/download?ixid=MnwxMjA3fDB8MXxhbGx8M3x8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
+        caption: "Shades of summer popping like soda"
+    }
 ]
 
 
@@ -8,10 +23,15 @@ const container = document.querySelector(".section--gallery")
 for (const img of images) {
     const item = document.createElement("div")
     const imgNode = document.createElement("img")
+    const caption = document.createElement("p")
+
+    caption.classList.add("text--caption")
     item.classList.add("gallery--item")
 
-    imgNode.src = img
-    item.appendChild(imgNode)
+    imgNode.src = img.link
+    caption.textContent = img.caption
 
+    item.appendChild(imgNode)
+    item.appendChild(caption)
     container.appendChild(item)
 }
