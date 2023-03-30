@@ -1,5 +1,13 @@
 images = [
     {
+        link: "https://imgur.com/0RaZncU.jpg",
+        caption: "Rising shadows"
+    },
+    {
+        link: "https://i.imgur.com/1mnEOho.jpg",
+        caption: "Sinking"
+    },
+    {
         link: "https://unsplash.com/photos/dnAWPVyaUGc/download?ixid=MnwxMjA3fDB8MXxhbGx8Mnx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
         caption: "A story but the lack of words"
     },
@@ -7,6 +15,14 @@ images = [
         link: "https://unsplash.com/photos/QGvyw8py8xk/download?ixid=MnwxMjA3fDB8MXxhbGx8MXx8fHx8fDJ8fDE2NTU2MTM5Mzg&force=true&w=1920",
         caption: "Moments before cats and dogs"
     },
+    {
+        link: "https://i.imgur.com/YfMk7bd.jpg",
+        caption: "Naturally noumenon"
+    },
+    {
+        link: "https://imgur.com/Kg312Jq.jpg",
+        caption: "Light and Darkness"
+    }
     // {
     //     link: "https://imgur.com/YfMk7bd",
     //     caption: "Naturally Noumenon"
