@@ -5,7 +5,8 @@ let blogs = {
 	"2024-01-02": [source("https://bytes.swiggy.com/swiggy-cache-on-delivery-3dced3621dde", "Cache-On-Delivery: Custom caching in webview")],
 	"2024-01-03": [source("https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm/", "Xe's Blog on Wazero: Go WebAssebly Runtime")],
         "2024-01-06": [source("https://antonz.org/in-browser-code-playgrounds/", "In browser code playgrounds : using WASI Runtime")],
-	"2024-01-07": [source("https://birtles.blog/2024/01/06/weird-things-engineers-believe-about-development/", "Weird Things Engineers believe about WEB Dev")]
+	"2024-01-07": [source("https://birtles.blog/2024/01/06/weird-things-engineers-believe-about-development/", "Weird Things Engineers believe about WEB Dev")],
+        "2024-01-08": [source("https://liamgoodacre.github.io/purescript/rows/records/2017/07/10/purescript-row-to-list.html", "Purescript RowToList Typeclass"), source("https://liamgoodacre.github.io/purescript/2017/05/27/row-lacks.html", "Purescript RowLacks Typeclass")]
 }
 
 const container = document.querySelector(".section--readlist")
