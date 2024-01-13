@@ -8,6 +8,7 @@ let blogs = {
 	"2024-01-07": [source("https://birtles.blog/2024/01/06/weird-things-engineers-believe-about-development/", "Weird Things Engineers believe about WEB Dev")],
         "2024-01-08": [source("https://liamgoodacre.github.io/purescript/rows/records/2017/07/10/purescript-row-to-list.html", "Purescript RowToList Typeclass"), source("https://liamgoodacre.github.io/purescript/2017/05/27/row-lacks.html", "Purescript RowLacks Typeclass")]
 	, "2024-01-11": [source("https://lihautan.com/manipulating-ast-with-javascript/", "AST with javascript")]
+	, "2024-01-13": [source("https://lethain.com/systems-thinking/", "Intro to Systems Thinking")]
 }
 
 const container = document.querySelector(".section--readlist")
