@@ -10,6 +10,7 @@ let blogs = {
 	, "2024-01-11": [source("https://lihautan.com/manipulating-ast-with-javascript/", "AST with javascript")]
 	, "2024-01-13": [source("https://lethain.com/systems-thinking/", "Intro to Systems Thinking")]
         , "2024-01-14":[source("https://medium.com/@nidhey29/how-did-paypal-handle-a-billion-daily-transactions-with-eight-virtual-machines-76b09ce5455c", "How PayPal uses Actor Model to handle billion transactions"), source("https://qiita.com/kimagure/items/4847685d02d4b15a556c", "Interop with Typescript using purescript"), source("https://blog.benjojo.co.uk/post/who-hosts-the-fediverse-instances", "Mapping Mastadom's server providers")]
+	, "2024-01-15": [source("https://qiita.com/kimagure/items/00f97c7fc6cef178fa3c", "Encode/Decode JSON in Purescript"), source("https://qiita.com/kimagure/items/cc0ea2982abdf1625e87", "Generic Programming in Purescript")]
 }
 
 const container = document.querySelector(".section--readlist")
