@@ -13,6 +13,7 @@ let blogs = {
 	, "2024-01-15": [source("https://qiita.com/kimagure/items/00f97c7fc6cef178fa3c", "Encode/Decode JSON in Purescript"), source("https://qiita.com/kimagure/items/cc0ea2982abdf1625e87", "Generic Programming in Purescript")]
 	, "2024-01-22": [source("https://medium.com/@personal.david.kohen/the-quest-for-signals-in-react-usestate-on-steroids-71eb9fc87c14", "Signals In React from scratch!")]
 	, "2024-01-27": [source("https://www.florianbellmann.com/blog/never-taught-qa", "Maintaining a testing culture and standard!")]
+	, "2024-01-28": [source("https://www.promptingguide.ai/techniques/cot", "Prompting Technique: Chain of Thought"), source("https://tidyfirst.substack.com/p/exploring-ai", "Exploring AI: What does exploration really mean ?")]
 }
 
 const container = document.querySelector(".section--readlist")
