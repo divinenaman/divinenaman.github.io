@@ -14,6 +14,7 @@ let blogs = {
 	, "2024-01-22": [source("https://medium.com/@personal.david.kohen/the-quest-for-signals-in-react-usestate-on-steroids-71eb9fc87c14", "Signals In React from scratch!")]
 	, "2024-01-27": [source("https://www.florianbellmann.com/blog/never-taught-qa", "Maintaining a testing culture and standard!")]
 	, "2024-01-28": [source("https://www.promptingguide.ai/techniques/cot", "Prompting Technique: Chain of Thought"), source("https://tidyfirst.substack.com/p/exploring-ai", "Exploring AI: What does exploration really mean ?")]
+	, "2023-01-29": [source("https://www.theregister.com/2024/01/24/willison_ai_software_development", "Usefulness of AI: Simon Williams"), source("https://invertedpassion.com/the-anti-productivity-manifesto/", "The Anti-Productivity Manifesto")]
 }
 
 const container = document.querySelector(".section--readlist")
