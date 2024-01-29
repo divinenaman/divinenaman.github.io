@@ -14,3 +14,16 @@
 ```
   Boredom is Valuable!
 ```
+
+[On Work, Efficiency](https://invertedpassion.com/the-anti-productivity-manifesto/) :
+```
+  The fear of the irrelevancy and losing out in the race impacts universally.
+  It does not matter whether you’re on top or in the middle,
+  whether you have enough money to retire for the rest of your life,
+  or whether you have won awards. The treadmill never stops.
+
+  Often we’re not addicting to a particular kind of work, but the mere behavior of working.
+
+  Perhaps this is what Buddha was hinting. The ultimate liberation from suffering – the enlightenment –
+  happens when you’re at peace with and bask at merely existing.
+```
