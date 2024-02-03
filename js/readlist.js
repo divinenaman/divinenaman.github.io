@@ -15,6 +15,7 @@ let blogs = {
 	, "2024-01-27": [source("https://www.florianbellmann.com/blog/never-taught-qa", "Maintaining a testing culture and standard!")]
 	, "2024-01-28": [source("https://www.promptingguide.ai/techniques/cot", "Prompting Technique: Chain of Thought"), source("https://tidyfirst.substack.com/p/exploring-ai", "Exploring AI: What does exploration really mean ?")]
 	, "2024-01-29": [source("https://www.theregister.com/2024/01/24/willison_ai_software_development", "Usefulness of AI: Simon Williams"), source("https://invertedpassion.com/the-anti-productivity-manifesto/", "The Anti-Productivity Manifesto")]
+	, "2024-02-03": [source("https://www.whytryai.com/p/ai-images-chatbots", "Better AI Images using Chatbots")]
 }
 
 const container = document.querySelector(".section--readlist")
