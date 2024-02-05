@@ -17,6 +17,7 @@ let blogs = {
 	, "2024-01-29": [source("https://www.theregister.com/2024/01/24/willison_ai_software_development", "Usefulness of AI: Simon Williams"), source("https://invertedpassion.com/the-anti-productivity-manifesto/", "The Anti-Productivity Manifesto")]
 	, "2024-02-03": [source("https://www.whytryai.com/p/ai-images-chatbots", "Better AI Images using Chatbots")]
 	, "2024-02-04": [source("https://brilliantsugar.github.io/posts/how-i-learned-to-stop-worrying-and-love-juggling-c++-atomics/", "Triple Buffer in C++")]
+	, "2024-02-05": [source("https://harry.garrood.me/blog/write-your-own-generics/", "PureScript's Generic type class")]
 }
 
 const container = document.querySelector(".section--readlist")
