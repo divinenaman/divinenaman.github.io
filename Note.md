@@ -27,3 +27,10 @@
   Perhaps this is what Buddha was hinting. The ultimate liberation from suffering – the enlightenment –
   happens when you’re at peace with and bask at merely existing.
 ```
+[Linus Torvalds on Development](https://lkml.iu.edu/hypermail/linux/kernel/2401.3/04208.html) :
+```
+You copied that function without understanding why it does what it
+does, and as a result your code IS GARBAGE.
+
+until somebody points to a real problem.
+```
