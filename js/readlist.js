@@ -20,6 +20,7 @@ let blogs = {
 	, "2024-02-05": [source("https://harry.garrood.me/blog/write-your-own-generics/", "PureScript's Generic type class")]
 	, "2024-02-08": [source("https://blog.meain.io/2024/just-enough-cors/", "Just Enough CORS"), source("https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html", "Google Sheets as DB")]
 	, "2024-02-09": [source("https://notes.eatonphil.com/2024-02-08-an-intuition-for-distributed-consensus-in-oltp-systems.html?utm_source=tldrnewsletter", "An intuition for distributed consensus in OLTP systems")]
+	, "2024-02-10": [source("https://erichartford.com/uncensored-models", "Censored vs Uncensored LLM Models"), source("https://agi-sphere.com/context-length/", "Context Length in LLMs"), source("https://agi-sphere.com/retrieval-augmented-generation-llama2/", "Simple RAG pipeline")]
 }
 
 const container = document.querySelector(".section--readlist")
