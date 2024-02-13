@@ -23,6 +23,7 @@ let blogs = {
 	, "2024-02-10": [source("https://erichartford.com/uncensored-models", "Censored vs Uncensored LLM Models"), source("https://agi-sphere.com/context-length/", "Context Length in LLMs"), source("https://agi-sphere.com/retrieval-augmented-generation-llama2/", "Simple RAG pipeline")]
 	, "2024-02-11": [source("https://giansegato.com/essays/edutainment-is-not-learning", "How to Learn Better in the Digital Age")]
 	, "2024-02-12": [source("https://invertedpassion.com/people-dont-like-using-technology/", "People don't like usefulness over tech"), source("https://invertedpassion.com/all-sophisticated-solutions-start-extremely-simple/", "All sophisticated solutions start extremely simple")]
+        , "2024-02-13": [source("https://world.hey.com/dhh/the-compounding-seeds-of-creativity-e7e212c0", "The compounding seeds of creativity")]
 }
 
 const container = document.querySelector(".section--readlist")
