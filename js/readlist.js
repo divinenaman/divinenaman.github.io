@@ -24,6 +24,7 @@ let blogs = {
 	, "2024-02-11": [source("https://giansegato.com/essays/edutainment-is-not-learning", "How to Learn Better in the Digital Age")]
 	, "2024-02-12": [source("https://invertedpassion.com/people-dont-like-using-technology/", "People don't like usefulness over tech"), source("https://invertedpassion.com/all-sophisticated-solutions-start-extremely-simple/", "All sophisticated solutions start extremely simple")]
         , "2024-02-13": [source("https://world.hey.com/dhh/the-compounding-seeds-of-creativity-e7e212c0", "The compounding seeds of creativity")]
+	, "2024-02-16": [source("https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders", "robots.txt: The text file that runs the internet")]
 }
 
 const container = document.querySelector(".section--readlist")
