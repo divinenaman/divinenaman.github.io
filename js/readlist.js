@@ -27,6 +27,7 @@ let blogs = {
 	, "2024-02-16": [source("https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders", "robots.txt: The text file that runs the internet")]
 	, "2024-02-18": [source("https://rednafi.com/go/strategy_pattern/#fn:2", "Strategy Pattern in Go"), source("https://replicate.com/blog/how-to-prompt-llama#system-prompts", "Llama 2 prompting guide"), source("https://www.promptingguide.ai/models/phi-2", "Phi-2 prompting guide")]
 	, "2024-02-22": [source("https://newsletter.pragmaticengineer.com/p/scaling-chatgpt", "Scaling ChatGPT: Five Real-World Engineering Challenges")]
+	, "2024-03-02": [source("https://depth-first.com/articles/2019/01/22/scanner-driven-parser-development/", "Scanner driven JSON parsing")]
 }
 
 const container = document.querySelector(".section--readlist")
