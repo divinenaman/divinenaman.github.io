@@ -29,6 +29,8 @@ let blogs = {
 	, "2024-02-22": [source("https://newsletter.pragmaticengineer.com/p/scaling-chatgpt", "Scaling ChatGPT: Five Real-World Engineering Challenges")]
 	, "2024-03-02": [source("https://depth-first.com/articles/2019/01/22/scanner-driven-parser-development/", "Scanner driven JSON parsing")]
 	, "2024-03-10": [source("https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/", "Sentence Embeddings")]
+
+	, "2024-04-01": [source("https://lucasoshiro.github.io/posts-en/2023-02-13-git-debug/", "Git as debugging tool")]
 }
 
 const container = document.querySelector(".section--readlist")
