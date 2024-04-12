@@ -31,6 +31,7 @@ let blogs = {
 	, "2024-03-10": [source("https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/", "Sentence Embeddings")]
 
 	, "2024-04-01": [source("https://lucasoshiro.github.io/posts-en/2023-02-13-git-debug/", "Git as debugging tool")]
+	, "2024-04-13": [source("https://www.sicpers.info/2018/03/why-inheritance-never-made-any-sense/", "Inheritance never made any sense")]
 }
 
 const container = document.querySelector(".section--readlist")
