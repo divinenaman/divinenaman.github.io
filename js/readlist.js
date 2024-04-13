@@ -32,6 +32,7 @@ let blogs = {
 
 	, "2024-04-01": [source("https://lucasoshiro.github.io/posts-en/2023-02-13-git-debug/", "Git as debugging tool")]
 	, "2024-04-13": [source("https://www.sicpers.info/2018/03/why-inheritance-never-made-any-sense/", "Inheritance never made any sense")]
+	, "2024-04-13": [source("https://netflixtechblog.com/predictive-cpu-isolation-of-containers-at-netflix-91f014d856c7", "Predictive CPU isolation of containers at Netflix")]
 }
 
 const container = document.querySelector(".section--readlist")
