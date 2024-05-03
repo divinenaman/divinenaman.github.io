@@ -36,6 +36,8 @@ let blogs = {
 	, "2024-04-15": [source("https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/", "Semicolons in programming")]
         
         , "2024-05-01": [source("https://sqlite.org/draft/whybytecode.html","Why SQLite Uses Bytecode"), source("https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff", "How we built Text-to-SQL at Pinterest")]
+        , "2024-05-02": [source("https://michal.sapka.me/bsd/why-bsd/", "Why use BSD ?")]
+	, "2024-05-03": [source("https://xp123.com/refactor-inline-adjust-extract/", "Refactor: inline-adjust-extract")]
 }
 
 const container = document.querySelector(".section--readlist")
