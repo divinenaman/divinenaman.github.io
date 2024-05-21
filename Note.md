@@ -34,3 +34,11 @@ does, and as a result your code IS GARBAGE.
 
 until somebody points to a real problem.
 ```
+[On Beauty & Motivation](https://world.hey.com/dhh/beautiful-motivations-6fef7c73) :
+```
+And beauty isn't binary. It's the journey of a thousand little decisions and investments in making
+something marginally prettier than it was before. To resist the urge to just make it work,
+and not stop until you make it shine. Not for anyone else, even,
+although others will undoubtedly appreciate your care.
+But for yourself, your own motivation, and your own mission.
+```
