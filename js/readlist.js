@@ -39,6 +39,7 @@ let blogs = {
         , "2024-05-02": [source("https://michal.sapka.me/bsd/why-bsd/", "Why use BSD ?")]
 	, "2024-05-03": [source("https://xp123.com/refactor-inline-adjust-extract/", "Refactor: inline-adjust-extract")]
         , "2024-05-06": [source("https://yoric.github.io/post/rust-typestate/", "Rust Typestate"), source("https://transactional.blog/blog/2023-why-full-text-search-is-hard", "Full text search is hard")]
+        , "2024-05-28": [source("https://kyleshevlin.com/two-types-of-composition/", "Two types of composition in frontend!"), source("https://kyleshevlin.com/design-system-retrospective/", "Creating a design system!")]
 }
 
 const container = document.querySelector(".section--readlist")
