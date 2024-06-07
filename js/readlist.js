@@ -42,6 +42,7 @@ let blogs = {
         , "2024-05-28": [source("https://kyleshevlin.com/two-types-of-composition/", "Two types of composition in frontend!"), source("https://kyleshevlin.com/design-system-retrospective/", "Creating a design system!")]
 
 	, "2024-06-03": [source("https://mazzo.li/posts/mac-distributed-tx.html", "Easy hash authentication in distributed filesystems!")]
+        , "2024-06-07": [source("https://vhyrro.github.io/posts/effect-systems/", "Conceptualize an Effect System!")]
 }
 
 const container = document.querySelector(".section--readlist")
