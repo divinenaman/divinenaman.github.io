@@ -46,6 +46,7 @@ let blogs = {
 	, "2024-06-08": [source("https://overreacted.io/algebraic-effects-for-the-rest-of-us/", "Algebraic Effect as a continuation concept!"), source("https://overreacted.io/the-two-reacts/", "Two Reacts: Client vs Server side!")]
 	, "2024-06-10": [source("https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/", "What color is your function ?: A strawman for async/sync model")]
         , "2024-06-11": [source("https://journal.stuffwithstuff.com/2013/01/13/iteration-inside-and-out/", "Internal and External iterators!")]
+        , "2024-06-14": [source("https://journal.stuffwithstuff.com/2013/02/24/iteration-inside-and-out-part-2/", "Generators & Fibers as Iterators!")]
 }
 
 const container = document.querySelector(".section--readlist")
