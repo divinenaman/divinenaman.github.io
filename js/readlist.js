@@ -47,6 +47,8 @@ let blogs = {
 	, "2024-06-10": [source("https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/", "What color is your function ?: A strawman for async/sync model")]
         , "2024-06-11": [source("https://journal.stuffwithstuff.com/2013/01/13/iteration-inside-and-out/", "Internal and External iterators!")]
         , "2024-06-13": [source("https://journal.stuffwithstuff.com/2013/02/24/iteration-inside-and-out-part-2/", "Generators & Fibers as Iterators!")]
+
+	, "2024-07-06": [source("https://ntietz.com/blog/throw-away-your-first-draft/", "Prototyping: throw you first draft of code!"), source("https://jonahdevs.com/the-subtract-day-why-less-code-can-lead-to-more-success/", "The Subtract day!")]
 }
 
 const container = document.querySelector(".section--readlist")
