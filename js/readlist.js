@@ -49,6 +49,10 @@ let blogs = {
         , "2024-06-13": [source("https://journal.stuffwithstuff.com/2013/02/24/iteration-inside-and-out-part-2/", "Generators & Fibers as Iterators!")]
 
 	, "2024-07-06": [source("https://ntietz.com/blog/throw-away-your-first-draft/", "Prototyping: throw you first draft of code!"), source("https://jonahdevs.com/the-subtract-day-why-less-code-can-lead-to-more-success/", "The Subtract day!")]
+	, "2024-08-16": [source("https://kristoff.it/blog/what-is-zig-comptime/", "What is Zig's comptime ?")]
+	, "2024-08-18": [source("https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting", "Fonts with built in Syntax Highlighting!")
+			, source("https://two-wrongs.com/practices-of-reliable-software-design", "Practices to build reliable software while starting out!")
+			]
 }
 
 const container = document.querySelector(".section--readlist")
