@@ -53,6 +53,7 @@ let blogs = {
 	, "2024-08-18": [source("https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting", "Fonts with built in Syntax Highlighting!")
 			, source("https://two-wrongs.com/practices-of-reliable-software-design", "Practices to build reliable software while starting out!")
 			]
+        , "2024-08-19": [source("https://andrewkelley.me/post/string-matching-comptime-perfect-hashing-zig.html", "String matching using zig's comptime hashing!")]
 }
 
 const container = document.querySelector(".section--readlist")
