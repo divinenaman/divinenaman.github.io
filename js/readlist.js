@@ -54,6 +54,8 @@ let blogs = {
 			, source("https://two-wrongs.com/practices-of-reliable-software-design", "Practices to build reliable software while starting out!")
 			]
         , "2024-08-19": [source("https://andrewkelley.me/post/string-matching-comptime-perfect-hashing-zig.html", "String matching using zig's comptime hashing!")]
+
+	, "2024-09-01": [source("https://lemire.me/blog/2018/09/30/quickly-identifying-a-sequence-of-digits-in-a-string-of-characters/", "Identifying sequence of digits in a string using SWAR!"))
 }
 
 const container = document.querySelector(".section--readlist")
