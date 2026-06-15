@@ -1,10 +1,77 @@
 :root {
-	--font-primary: #000;
-	--font-secondry: #fff;
-	--font-grey: #636C75;
-	--font-contrast2: #F7EC59;
-	--font-contrast1: #41ff00;
+  /* Minimalist 2-Color Design System */
+  
+  /* Default: Dark Mode (Black & White) */
+  --bg-primary: #000000;
+  --bg-secondary: #000000;
+  --bg-secondry: #000000; /* fallback */
+  --bg-terminal: #000000;
+  --border-color: #262626;
+  --border-glow: #ffffff;
+  
+  --font-primary: #ffffff;
+  --font-secondary: #a3a3a3;
+  --font-secondry: #a3a3a3; /* fallback */
+  --font-grey: #525252;
+  --font-gray: #525252;  /* fallback */
+  
+  /* 2-Color Constraint: Accents map directly to white in dark mode */
+  --accent-cyan: #ffffff;
+  --accent-emerald: #ffffff;
+  --accent-purple: #ffffff;
+  --accent-amber: #ffffff;
+  --accent-red: #ffffff;
+  --accent-blue: #ffffff;
+  --accent-pink: #ffffff;
 
-	--bg-primary: #fff;
-	--bg-secondry: #000;
-};
+  --sidebar-w: 200px;
+  --header-h: 60px;
+  --shadow-color: transparent;
+}
+
+body.theme-dark {
+  --bg-primary: #000000;
+  --bg-secondary: #000000;
+  --bg-secondry: #000000;
+  --bg-terminal: #000000;
+  --border-color: #262626;
+  --border-glow: #ffffff;
+  
+  --font-primary: #ffffff;
+  --font-secondary: #a3a3a3;
+  --font-secondry: #a3a3a3;
+  --font-grey: #525252;
+  --font-gray: #525252;
+  
+  --accent-cyan: #ffffff;
+  --accent-emerald: #ffffff;
+  --accent-purple: #ffffff;
+  --accent-amber: #ffffff;
+  --accent-red: #ffffff;
+  --accent-blue: #ffffff;
+  --accent-pink: #ffffff;
+}
+
+body.theme-light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #ffffff;
+  --bg-secondry: #ffffff;
+  --bg-terminal: #ffffff;
+  --border-color: #e5e5e5;
+  --border-glow: #000000;
+  
+  --font-primary: #000000;
+  --font-secondary: #525252;
+  --font-secondry: #525252;
+  --font-grey: #a3a3a3;
+  --font-gray: #a3a3a3;
+  
+  /* 2-Color Constraint: Accents map directly to black in light mode */
+  --accent-cyan: #000000;
+  --accent-emerald: #000000;
+  --accent-purple: #000000;
+  --accent-amber: #000000;
+  --accent-red: #000000;
+  --accent-blue: #000000;
+  --accent-pink: #000000;
+}

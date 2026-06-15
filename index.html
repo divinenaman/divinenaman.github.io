@@ -4,474 +4,566 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Portfolio | Naman Agarwal</title>
-  <meta name="description" content="" />
+  <title>Naman Agarwal | Software Development Engineer</title>
+  <meta name="description" content="Portfolio of Naman Agarwal - Software Development Engineer specializing in Rust, backend systems, and AI agent architectures." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="Naman Agarwal - Philosophying Code" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image"
-    content="https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
-  <meta property="og:url" content="https://divinenaman.github.io" />
-
   <link rel="icon" href="assets/logo1.jpeg" />
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
   <link rel="stylesheet" href="css/colors.css" />
   <link rel="stylesheet" href="css/index.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
-  <header id="header" class="nav--container">
+<body class="theme-dark">
+  <!-- Navigation Bar -->
+  <header class="navbar">
     <div class="nav-left">
-      <a href="https://drive.google.com/file/d/1IkGeFUoFe8FUopzfCumllU9BJCneXIz6/view?usp=sharing"
-        class="hyper-links-dark" style="color: var(--font-contrast1)">Resume</a>
-      <a href="#contact" class="hyper-links-dark" style="color: var(--font-contrast1)">Contact</a>
+      <a href="#" class="nav-brand">~/<span>naman-agarwal</span></a>
     </div>
     <div class="nav-right">
-      <a href="#about" class="hyper-links-dark">About</a>
-      <a href="#achievements" class="hyper-links-dark">Achievements</a>
-      <a href="#experience" class="hyper-links-dark">Experience</a>
-      <a href="#projects" class="hyper-links-dark">Projects</a>
-      <a href="/gallery.html" class="hyper-links-dark">Gallery</a>
-      <a href="/readlist.html" class="hyper-links-dark">ReadList</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="gallery.html" class="nav-link">Gallery</a>
+      <a href="readlist.html" class="nav-link">Readlist</a>
+      <a href="https://drive.google.com/file/d/1IkGeFUoFe8FUopzfCumllU9BJCneXIz6/view?usp=sharing" target="_blank" class="nav-link nav-cta"><i class="fa-solid fa-download"></i> Resume</a>
     </div>
   </header>
 
-  <div class="section--hero">
-    <div class="hero--left">
-      <div class="hero--left-content">
-        <div class="info--banner">
-          <span class="text--heading">Naman Agarwal.</span>
-          <span class="text--subtitle-spaced-grey" data-aos="flip-right">SOFTWARE</span>
-          <span class="text--subtitle-spaced-grey" data-aos="flip-right">DEVELOPER</span>
-          <hr />
-        </div>
-        <div class="skills--banner">
-          <span class="text--normal bg--secondry">Web</span>
-          <hr />
-          <span class="text--normal bg--secondry">Android</span>
-          <hr />
-          <span class="text--normal bg--secondry">Backend</span>
-        </div>
-      </div>
+  <!-- Hero & NamanOS Developer IDE -->
+  <section class="hero-section">
+    <div class="hero-intro" data-aos="fade-up">
+      <h1>Hi, I'm <span>Naman Agarwal</span></h1>
+      <p>Software Development Engineer at <strong>Juspay</strong>. Specializing in Rust, Haskell, payments architecture, microservices, and autonomous LLM agents.</p>
     </div>
-    <div class="hero-right">
-      <div class="hero-right-content">
-        <img src="/assets/profilen.jpeg" alt="" />
-        <div class="hero-links">
-          <a href="https://github.com/divinenaman" class="hyper-icons-dark"><i class="fab fa-github fa-4x"></i></a>
-          <a href="https://www.linkedin.com/in/naman-agarwal-01/" class="hyper-icons-dark"><i
-              class="fab fa-linkedin fa-4x"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- section-1 -->
-  <div id="about"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="shell bg--secondry">
-      <div class="shell--row1">
-        <div class="shell--ps1 text--normal">[naman@root]$</div>
-        <div class="shell--command text--normal">whoami</div>
+    <!-- NamanOS IDE Card -->
+    <div class="ide-workspace" data-aos="fade-up">
+      <!-- Title bar -->
+      <div class="window-titlebar">
+        <div class="window-controls">
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+        </div>
+        <div class="window-title">naman@workspace:~</div>
+        <div class="window-git-branch"><i class="fa-solid fa-code-branch"></i> git:main</div>
       </div>
-      <div class="shell--output text--normal1">
-        <div class="output--content">
-          <div class="about--content">
-            I am a passionate Full-Stack Developer currently working as a Software Development Engineer 1 (SDE 2
-            in-line) at Juspay, a company that builds robust and scalable rails for digital payments. I specialize in
-            building reliable and scalable solutions for real-world problems. My experience spans functional systems
-            programming, microservices, and Generative AI pipelines. I take a bottom-up approach to learning—I strive to
-            understand tools from first principles, often reverse-engineering or building them from scratch (e.g., AI
-            Agents, React, JSON parsers) to truly master them. I thrive on challenges and have a proven ability to make
-            critical engineering decisions to deliver high-quality, high-impact projects.
+
+      <!-- IDE Central Workspace -->
+      <div class="ide-body">
+        <!-- Vim Editor Structure -->
+        <div class="vim-editor">
+          <div class="vim-tabline" id="vim-tabs">
+            <!-- Loaded dynamically -->
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="tools"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="shell bg--secondry">
-      <div class="shell--row1">
-        <div class="shell--ps1 text--normal">[naman@root]$</div>
-        <div class="shell--command text--normal">cat ./tools.json</div>
-      </div>
-
-      <div class="shell--output text--normal" style="margin: 5rem auto">
-        <div class="tech--links">
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-java-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-cplusplus-line-wordmark"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-python-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-javascript-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-css3-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-sass-original colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-react-original-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-nodejs-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-express-original colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-typescript-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-docker-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-gatsby-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-redux-original colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-firebase-plain-wordmark colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-flask-original"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-rust-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-haskell-plain colored"></i>
-          </a>
-          <a href="" class="hyper-icons-dark">
-            <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- section-2-about -->
-
-  <div class="" id="achievements"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="text--heading" style="margin-bottom: 40px">Achievements</div>
-
-    <div class="achievements--container">
-      <div class="item bg--secondry" data-aos="fade-up">
-        <div class="text--normal bg--secondry">
-          Awarded 'Survival Startup' title at the UBC Hackathon
-        </div>
-      </div>
-      <div class="item bg--secondry" data-aos="fade-up">
-        <div class="text--normal bg--secondry">
-          Conducted research in privacy-preserving Federated Machine Learning applications
-        </div>
-      </div>
-      <div class="item bg--secondry" data-aos="fade-up">
-        <div class="text--normal bg--secondry">
-          Awarded a Letter of Recommendation from the Additional Director General of Uttar Pradesh, India.
-        </div>
-      </div>
-      <div class="item bg--secondry" data-aos="fade-up">
-        <div class="text--normal bg--secondry">
-          Served as Tech Lead for the Android Club at VIT Chennai
-        </div>
-      </div>
-      <div class="item bg--secondry" data-aos="fade-up">
-        <div class="text--normal bg--secondry">
-          Architected and deployed a full-stack productivity application to the Google Play Store, managing end-to-end
-          delivery
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="" id="experience"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="shell bg--secondry">
-      <div class="shell--row1">
-        <div class="shell--ps1 text--normal">[naman@root]$</div>
-        <div class="shell--command text--normal">ls ./experience</div>
-      </div>
-      <div class="shell--output">
-        <div class="output--content">
-          <div class="exp--container">
-            <div class="exp--content">
-              <div class="text--normal bg--secondry">Juspay</div>
-              <div class="text--subtitle">SDE 1</div>
-              <div class="text--subtitle">
-                <ul>
-                  <li>
-                    <strong>Trident Server:</strong> Led the Rust port of a heavily utilized 3DS server, currently live
-                    with major enterprise clients like HDFC and ixigo. The new implementation increased overall
-                    transaction success rates by 2-3%.
-                  </li>
-                  <li>
-                    <strong>Godel AI:</strong> Brainstormed, architected, and brought to production an AI-driven system
-                    to autonomously maintain and run scrapers for bank OTP pages. This full-stack solution drastically
-                    reduced operational overhead for merchants like Swiggy, Zepto, and Myntra, requiring only
-                    human-in-the-loop approvals.
-                  </li>
-                  <li>
-                    <strong>Agentic Payments:</strong> Developed and integrated coding agents for product discovery and
-                    payment workflows utilizing the Model Context Protocol (MCP).
-                  </li>
-                  <li>
-                    <strong>Infrastructure & DevOps:</strong> Hosted and maintained multiple critical services utilizing
-                    Docker.
-                  </li>
-                  <li>
-                    <strong>Technologies:</strong> Rust, Haskell, Python, JavaScript, Docker, LLMs, Prompt Engineering,
-                    Clean Architecture.
-                  </li>
-                </ul>
-              </div>
+          <div class="vim-content-area">
+            <div class="vim-gutter" id="vim-gutter"></div>
+            <div class="editor-code-container">
+              <pre class="editor-code" id="editor-code"></pre>
             </div>
-
-            <div class="exp--content">
-              <div class="text--normal bg--secondry">ZeeQ</div>
-              <div class="text--subtitle">
-                <ul>
-                  <li>
-                    Architected highly scalable back-end services from the ground up utilizing Clean Architecture
-                    principles and Docker.
-                  </li>
-                  <li>
-                    Developed over 40% of the back-end services, including a robust authentication and authorization
-                    system with role-based access control.
-                  </li>
-                  <li>
-                    Translated business requirements into technical specifications and managed the database with Hasura
-                    ORM.
-                  </li>
-                  <li>
-                    Technologies: Docker, Node.js, GraphQL, Git.
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div class="vim-statusline">
+            <div class="vim-status-left">
+              <span class="vim-mode-badge">NORMAL</span>
+              <span class="vim-file-info" id="vim-file-info">about_me.md</span>
             </div>
-
-            <div class="exp--content">
-              <div class="text--normal bg--secondry">Pharmiq</div>
-              <div class="text--subtitle">
-                <ul>
-                  <li>
-                    Engineered robust back-end systems in Go and Python, implementing secure authentication middleware
-                    and optimizing state management.
-                  </li>
-                  <li>
-                    Technologies: Docker, Go, Python, TypeScript, Git, Jira.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="exp--content">
-              <div class="text--normal bg--secondry">GRP India</div>
-              <div class="text--subtitle">
-                <ul>
-                  <li>
-                    Delivered a desktop application to automate duty allotment to station personnel, reducing allotment
-                    time by 50%.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="exp--content">
-              <div class="text--normal bg--secondry">Zoho</div>
-              <div class="text--subtitle">
-                <ul>
-                  <li>
-                    Collaborated with the machine learning research team to develop and evaluate privacy-preserving
-                    Federated Learning models utilizing TensorFlow and Python.
-                  </li>
-                  <li>
-                    Technologies: TensorFlow, Python.
-                  </li>
-                </ul>
-              </div>
+            <div class="vim-status-right">
+              <span>utf-8</span>
+              <span id="vim-line-col">1,1          All</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- section-3-experience -->
-  <div class="" id="projects"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="shell bg--secondry">
-      <div class="shell--row1">
-        <div class="shell--ps1 text--normal">[naman@root]$</div>
-        <div class="shell--command text--normal">less projects.list</div>
-      </div>
-      <div class="shell--output">
-        <div class="output--content">
-          <div class="projects--container">
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">Text-to-Video Pipeline</div>
-              <div class="text--subtitle">
-                Architected and built a fully autonomous Text-to-Video pipeline where AI agents generate complete videos
-                from a single text prompt, eliminating the need for manual video editing.
-                <ul>
-                  <li>Engineered AI-driven content analysis utilizing LLMs, precise prompt engineering, and embeddings
-                    to ensure high thematic relevancy between the story and generated video clips.</li>
-                  <li>Designed and hosted the rendering pipeline on AWS Lambda to efficiently handle low-traffic,
-                    high-memory, and bursty computational requirements, demonstrating a strong understanding of cloud
-                    pricing and architectural tradeoffs.</li>
-                  <li>Implemented AI models to autonomously maintain visual and narrative consistency across all video
-                    segments.</li>
-                  <li>Empowered the AI to independently search and integrate real-time data and media via APIs.</li>
-                </ul>
-                <a href="https://www.youtube.com/shorts/GG5bko4Q8lM" class="hyper-icons-dark"><i
-                    class="fab fa-youtube fa-2x"></i></a>
-              </div>
-            </div>
 
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">Family Tree Builder (Computer Vision / Data Eng)</div>
-              <div class="text--subtitle">
-                Engineered a data processing pipeline to construct complex relational graphs from public Indian
-                electoral data. Developed custom Computer Vision tools integrating Tesseract OCR to read image-based
-                PDFs, built automated CAPTCHA solvers, and scraped/normalized 25,000+ data points to map
-                multi-generational relationships.
-                <a href="https://github.com/divinenaman/family-tree-builder" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
+      <!-- Bottom Terminal Panel -->
+      <div class="ide-terminal">
+        <div class="terminal-titlebar">
+          <div class="terminal-tab-title">
+            <i class="fa-solid fa-terminal"></i>
+            <span>Console</span>
+          </div>
+          <div style="display:flex; gap:0.5rem">
+            <button class="quick-cmd-btn" data-cmd="neofetch">neofetch</button>
+            <button class="quick-cmd-btn" data-cmd="git status">git status</button>
+            <button class="quick-cmd-btn" data-cmd="git log">git log</button>
+            <button class="quick-cmd-btn" data-cmd="theme">theme</button>
+            <button class="quick-cmd-btn" data-cmd="hack">hack</button>
+            <button class="quick-cmd-btn" data-cmd="clear">clear</button>
+          </div>
+        </div>
 
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">Invoice Central</div>
-              <div class="text--subtitle">
-                An invoice-generating web app for offline shops, featuring product listing, quantity management, and
-                invoice creation/sharing. Optimized database queries with MongoDB's Aggregation pipeline, improving
-                response times by 5%.
-                <a href="https://github.com/divinenaman/Invoice-Central" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
-
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">Confab Video Chat</div>
-              <div class="text--subtitle">
-                Built a video chat web app using WebRTC and WebSockets for full-duplex communication. Implemented
-                efficient tree-based data structures to increase multi-user video chat performance by 10%.
-                <br />
-                <a href="https://github.com/divinenaman/confab-video-chat-app" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
-
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">
-                Face Recognition application
-              </div>
-              <div class="text--subtitle">
-                Developed an automated attendance system utilizing Google's Facenet deep learning model and MQTT for IoT
-                integration.<br />
-                <a href="https://github.com/divinenaman/face-recognition-attendance-system" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
-
-            <div class="projects--content">
-              <div class="text--normal bg--secondry">
-                React Native Transition View
-              </div>
-              <div class="text--subtitle">
-                Authored a highly performant open-source library leveraging Reanimated 2 to handle complex transition
-                calculations efficiently at 60fps. <br />
-                <a href="https://github.com/divinenaman/react-native-transition-view" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
+        <div class="terminal-body">
+          <div id="terminal-outputs"></div>
+          <div class="terminal-input-row">
+            <span class="prompt-user">visitor@naman-os</span>:<span class="prompt-path">~</span>$ 
+            <input type="text" id="terminal-input-field" class="terminal-input-field" autocomplete="off" autofocus placeholder="Type 'help'..." />
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- section-4-projects -->
-  <div class="" id="contact"></div>
-  <div class="section--container" data-aos="fade-up">
-    <div class="shell bg--secondry">
-      <div class="shell--row1">
-        <div class="shell--ps1 text--normal">[naman@root]$</div>
-        <div class="shell--command text--normal">cat ./contact.js</div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section-container" id="about">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">whoami</h2>
+    </div>
+
+    <div class="terminal-card" data-aos="fade-up">
+      <div class="terminal-card-header">
+        <span class="terminal-card-title">visitor@naman-os:~$ whoami</span>
+        <div class="window-controls">
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+        </div>
       </div>
-      <div class="shell--output">
-        <div class="output--content">
-          <div class="contact--container">
-            <div class="contact--content">
-              <div class="text--normal bg--secondry">Email</div>
-              <div class="text--subtitle">namanddev7@gmail.com</div>
+      <div class="terminal-card-body">
+        <div class="about-grid">
+          <div class="about-photo-wrapper">
+            <img src="assets/profilen.jpeg" class="about-photo" alt="Naman Agarwal" />
+            <div class="profile-links">
+              <a href="https://github.com/divinenaman" target="_blank" class="profile-link"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/naman-agarwal-01/" target="_blank" class="profile-link"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="mailto:namanddev7@gmail.com" class="profile-link"><i class="fa-solid fa-envelope"></i></a>
             </div>
-            <div class="contact--content">
-              <div class="text--normal bg--secondry">Phone</div>
-              <div class="text--subtitle">9651111184</div>
-            </div>
-            <div class="contact--content">
-              <div class="text--normal bg--secondry">LinkedIn</div>
-              <div class="text--subtitle">
-                <a href="https://www.linkedin.com/in/naman-agarwal-01/" class="hyper-icons-dark"><i
-                    class="fab fa-linkedin fa-2x"></i></a>
-              </div>
-            </div>
-            <div class="contact--content">
-              <div class="text--normal bg--secondry">Github</div>
-              <div class="text--subtitle">
-                <a href="https://github.com/divinenaman" class="hyper-icons-dark"><i
-                    class="fab fa-github fa-2x"></i></a>
-              </div>
-            </div>
-            <div class="contact--content">
-              <div class="text--normal bg--secondry">Social</div>
-              <div class="text--subtitle">
-                <a href="" class="hyper-icons-dark"><i class="fab fa-instagram fa-2x"></i></a>
-              </div>
-            </div>
+          </div>
+          <div class="about-details">
+            <p class="about-text">
+              I am a passionate <strong>Full-Stack Developer</strong> currently working as a <strong>Software Development Engineer 2</strong> at <strong>Juspay</strong>. I specialize in building reliable, scalable backend APIs, functional services, and developer-centric tooling.
+            </p>
+            <p class="about-text">
+              My engineering approach is <strong>bottom-up</strong>: I strive to understand libraries and frameworks from first principles by reverse-engineering them or writing mock versions from scratch (such as custom React renderers, JSON parsers, or autonomous LLM pipelines). 
+            </p>
+            <p class="about-text">
+              I served as the <strong>Tech Lead for the Android Club at VIT Chennai</strong> during my B.Tech, where I organized hackathons and mentored juniors in clean development practices. I thrive under pressure and enjoy translating product designs into robust system models.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- section-5-contact -->
-  <div class="section--container">
-    <div class="footer--container">
-      <footer>
-        <div class="bg--secondry text--center">
-          <div class="text--subtitle">
-            Maintained by Naman Agarwal
-            <a href="" class="hyper-icons-dark"><i class="fas fa-copyright fa-1x"></i></a>
-            2021
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section-container" id="skills">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">neofetch --skills</h2>
+    </div>
+
+    <div class="terminal-card" data-aos="fade-up">
+      <div class="terminal-card-header">
+        <span class="terminal-card-title">visitor@naman-os:~$ neofetch --detailed-skills</span>
+        <div class="window-controls">
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+        </div>
+      </div>
+      <div class="terminal-card-body">
+        <div class="skills-wrapper">
+          
+          <!-- Languages -->
+          <div class="skills-category">
+            <div class="skills-category-title">Languages</div>
+            <div class="skills-chips">
+              <div class="skill-chip"><i class="devicon-rust-plain"></i> Rust</div>
+              <div class="skill-chip"><i class="devicon-haskell-plain"></i> Haskell</div>
+              <div class="skill-chip"><i class="devicon-go-plain"></i> Go</div>
+              <div class="skill-chip"><i class="devicon-python-plain"></i> Python</div>
+              <div class="skill-chip"><i class="devicon-typescript-plain"></i> TypeScript</div>
+              <div class="skill-chip"><i class="devicon-javascript-plain"></i> JavaScript</div>
+              <div class="skill-chip"><i class="devicon-java-plain"></i> Java</div>
+              <div class="skill-chip"><i class="devicon-cplusplus-plain"></i> C++</div>
+            </div>
+          </div>
+
+          <!-- Web & Back-End -->
+          <div class="skills-category">
+            <div class="skills-category-title">Back-End & Frameworks</div>
+            <div class="skills-chips">
+              <div class="skill-chip"><i class="devicon-nodejs-plain"></i> Node.js</div>
+              <div class="skill-chip"><i class="devicon-express-original"></i> Express</div>
+              <div class="skill-chip"><i class="devicon-react-original"></i> React</div>
+              <div class="skill-chip"><i class="devicon-react-original"></i> React Native</div>
+              <div class="skill-chip"><i class="devicon-flask-original"></i> Flask</div>
+              <div class="skill-chip"><i class="devicon-graphql-plain"></i> GraphQL</div>
+              <div class="skill-chip"><i class="devicon-redux-original"></i> Redux</div>
+            </div>
+          </div>
+
+          <!-- Databases & DevOps -->
+          <div class="skills-category">
+            <div class="skills-category-title">DevOps, Cloud & DB</div>
+            <div class="skills-chips">
+              <div class="skill-chip"><i class="devicon-docker-plain"></i> Docker</div>
+              <div class="skill-chip"><i class="devicon-amazonwebservices-plain"></i> AWS Lambda / ECS</div>
+              <div class="skill-chip"><i class="devicon-postgresql-plain"></i> PostgreSQL</div>
+              <div class="skill-chip"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+              <div class="skill-chip"><i class="fa-solid fa-cloud"></i> Hasura ORM</div>
+              <div class="skill-chip"><i class="devicon-firebase-plain"></i> Firebase</div>
+              <div class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section-container" id="experience">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">git log --experience</h2>
+    </div>
+
+    <div class="terminal-card" data-aos="fade-up">
+      <div class="terminal-card-header">
+        <span class="terminal-card-title">visitor@naman-os:~$ git log --graph --oneline --experience-tree</span>
+        <div class="window-controls">
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+        </div>
+      </div>
+      <div class="terminal-card-body">
+        <div class="timeline">
+          
+          <!-- Juspay SDE 2 -->
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div class="timeline-meta">
+                <span class="timeline-company">Juspay</span>
+                <span class="timeline-role">Software Development Engineer II</span>
+              </div>
+              <div class="timeline-right">
+                <span class="timeline-date">2023 - Present</span>
+                <i class="fa-solid fa-chevron-down timeline-toggle"></i>
+              </div>
+            </div>
+            <div class="timeline-card-body">
+              <ul>
+                <li><strong>Trident Server:</strong> Led the Rust port of a heavily utilized 3DS server, currently live with major enterprise clients like HDFC and ixigo. The new implementation increased transaction success rates by 2-3%.</li>
+                <li><strong>Godel AI Scrapers:</strong> Co-architected and brought to production an AI-driven scraper generator/maintenance platform for bank OTP pages, reducing operational overhead by 70% for merchants like Swiggy, Zepto, and Myntra.</li>
+                <li><strong>Agentic Payments:</strong> Built coding agents and tool integrations (Model Context Protocol APIs) to automate payment flow discovery and product testing operations.</li>
+                <li><strong>Infrastructure:</strong> Hosted and maintained critical services in scalable environments utilizing Docker, optimizing CPU performance boundaries.</li>
+              </ul>
+              <div class="timeline-tech-tags">
+                <span class="tech-tag">Rust</span>
+                <span class="tech-tag">Haskell</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">LLMs</span>
+                <span class="tech-tag">MCP</span>
+                <span class="tech-tag">Functional Programming</span>
+                <span class="tech-tag">Declarative Programming</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ZeeQ -->
+          <div class="timeline-card collapsed">
+            <div class="timeline-card-header">
+              <div class="timeline-meta">
+                <span class="timeline-company">ZeeQ</span>
+                <span class="timeline-role">Backend Developer</span>
+              </div>
+              <div class="timeline-right">
+                <span class="timeline-date">2022 - 2023</span>
+                <i class="fa-solid fa-chevron-down timeline-toggle"></i>
+              </div>
+            </div>
+            <div class="timeline-card-body">
+              <ul>
+                <li>Architected robust, highly scalable backend microservices from the ground up utilizing Clean Architecture principles.</li>
+                <li>Authored over 40% of the backend codebase, including secure authorization and RBAC middlewares.</li>
+                <li>Engineered PostgreSQL relational models and configured schema triggers with Hasura ORM and GraphQL endpoints.</li>
+              </ul>
+              <div class="timeline-tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">GraphQL</span>
+                <span class="tech-tag">Hasura</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section-container" id="projects">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">docker ps --projects</h2>
+    </div>
+
+    <div class="projects-grid" data-aos="fade-up">
+      
+      <!-- Text-to-Video -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 4d91e847c2</span>
+          <span class="docker-status">Up</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">Text-to-Video Pipeline</div>
+          <p class="project-desc">Fully autonomous multi-agent pipeline generating complete videos from a single prompt. Leverages LLMs and embeddings for clip synthesis and thematic alignment. Powered by serverless AWS Lambda execution layers.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LLMs</span>
+            <span class="tech-tag">AWS Lambda</span>
+            <span class="tech-tag">Embeddings</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.youtube.com/shorts/GG5bko4Q8lM" target="_blank" class="project-link"><i class="fa-brands fa-youtube"></i> Demo</a>
           </div>
         </div>
-      </footer>
+      </div>
+
+      <!-- Family Tree Builder -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 8a7d2e11bf</span>
+          <span class="docker-status">Exited</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">Family Tree Builder</div>
+          <p class="project-desc">Graph parsing engine that maps relational multi-generational graphs from electoral tables. Integrates custom CAPTCHA solvers, Tesseract OCR for document scans, and Scrapy to parse 25,000+ data nodes.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Tesseract OCR</span>
+            <span class="tech-tag">Scrapy</span>
+            <span class="tech-tag">NetworkX</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/divinenaman/family-tree-builder" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Invoice Central -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 2c19da98fe</span>
+          <span class="docker-status">Up</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">Invoice Central</div>
+          <p class="project-desc">Web app designed for offline store billing, listing products and compiling invoices instantly. Optimized queries using complex MongoDB Aggregation pipelines, reducing page load latency by 5%.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">React</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/divinenaman/Invoice-Central" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confab Video Chat -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 7a83bb22cc</span>
+          <span class="docker-status">Up</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">Confab Video Chat</div>
+          <p class="project-desc">Full-duplex real-time video chat solution using custom WebSockets signaling and WebRTC protocol. Leverages dynamic mesh connections to support robust performance and tree-based data buffers.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">WebRTC</span>
+            <span class="tech-tag">WebSockets</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/divinenaman/confab-video-chat-app" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Face Recognition Attendance -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 1d9e2a33fe</span>
+          <span class="docker-status">Exited</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">Face Recognition IoT</div>
+          <p class="project-desc">Automated attendance verification system leveraging Google FaceNet convolutional deep learning models and MQTT brokers to synchronize local records with IoT hardware entry gateways.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">FaceNet</span>
+            <span class="tech-tag">MQTT</span>
+            <span class="tech-tag">IoT Gateway</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/divinenaman/face-recognition-attendance-system" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- React Native Transition View -->
+      <div class="project-card">
+        <div class="project-card-topbar">
+          <span class="docker-container-id">ID: 9c8e1a3b5f</span>
+          <span class="docker-status">Up</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-title">RN Transition View</div>
+          <p class="project-desc">Highly performant open-source library built on top of Reanimated 2 to compute matrix layouts on UI threads, delivering complex transition animations at a fluid 60fps.</p>
+          <div class="timeline-tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">Reanimated 2</span>
+            <span class="tech-tag">TypeScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/divinenaman/react-native-transition-view" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section-container" id="achievements">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">cat achievements.txt</h2>
+    </div>
+
+    <div class="achievements-grid" data-aos="fade-up">
+      <div class="achievement-card">
+        <i class="fa-solid fa-trophy achievement-icon"></i>
+        <div class="achievement-content">
+          <span class="achievement-title">Survival Startup Title</span>
+          <p class="about-text" style="font-size:1.35rem">Awarded 'Survival Startup' at the UBC Hackathon for high resilience engineering.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-medal achievement-icon"></i>
+        <div class="achievement-content">
+          <span class="achievement-title">VIT Android Tech Lead</span>
+          <p class="about-text" style="font-size:1.35rem">Served as Tech Lead for VIT Chennai Android Club, organizing local workshops and events.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-feather achievement-icon"></i>
+        <div class="achievement-content">
+          <span class="achievement-title">State R.O.L Recommendation</span>
+          <p class="about-text" style="font-size:1.35rem">Awarded official Letter of Recommendation from Additional Director General of UP Police, India.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-paper-plane achievement-icon"></i>
+        <div class="achievement-content">
+          <span class="achievement-title">Play Store Deployment</span>
+          <p class="about-text" style="font-size:1.35rem">Architected and published full-stack productivity applications, managing client updates.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-microscope achievement-icon"></i>
+        <div class="achievement-content">
+          <span class="achievement-title">Federated Learning Research</span>
+          <p class="about-text" style="font-size:1.35rem">Conducted research on privacy-preserving Federated Machine Learning pipelines at Zoho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Portal -->
+  <section class="section-container" id="contact">
+    <div class="section-title-wrapper" data-aos="fade-up">
+      <h2 class="section-title">ssh contact@naman.dev</h2>
+    </div>
+
+    <div class="terminal-card" data-aos="fade-up">
+      <div class="terminal-card-header">
+        <span class="terminal-card-title">visitor@naman-os:~$ ssh contact@naman.dev</span>
+        <div class="window-controls">
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+          <div class="window-dot"></div>
+        </div>
+      </div>
+      <div class="terminal-card-body">
+        <div class="contact-shell-body">
+          <div class="contact-info-panel">
+            <div class="contact-detail">
+              <span class="contact-detail-label">Email</span>
+              <div class="contact-detail-value">
+                <span>namanddev7@gmail.com</span>
+                <button class="copy-btn" onclick="navigator.clipboard.writeText('namanddev7@gmail.com'); this.innerText='Copied!'; setTimeout(()=>this.innerText='Copy', 1500)">Copy</button>
+              </div>
+            </div>
+            
+            <div class="contact-detail">
+              <span class="contact-detail-label">Phone</span>
+              <div class="contact-detail-value">
+                <span>+91 9651111184</span>
+                <button class="copy-btn" onclick="navigator.clipboard.writeText('+91 9651111184'); this.innerText='Copied!'; setTimeout(()=>this.innerText='Copy', 1500)">Copy</button>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-label">Location</span>
+              <div class="contact-detail-value">Bengaluru, Karnataka, India</div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-label">Networks</span>
+              <div class="profile-links" style="margin-top:0.5rem">
+                <a href="https://github.com/divinenaman" target="_blank" class="profile-link" style="font-size:2.2rem"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/naman-agarwal-01/" target="_blank" class="profile-link" style="font-size:2.2rem"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://drive.google.com/file/d/1IkGeFUoFe8FUopzfCumllU9BJCneXIz6/view?usp=sharing" target="_blank" class="profile-link" style="font-size:2.2rem" title="Resume"><i class="fa-solid fa-file-pdf"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form-panel" onsubmit="event.preventDefault(); alert('Message sent simulated successfully!')">
+            <div class="form-group">
+              <label class="form-label">visitor@naman-os:~$ echo $SENDER_NAME</label>
+              <input type="text" class="form-input" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">visitor@naman-os:~$ echo $SENDER_EMAIL</label>
+              <input type="email" class="form-input" placeholder="your.email@address.com" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">visitor@naman-os:~$ cat &lt;&lt;EOF &gt; message.txt</label>
+              <textarea class="form-textarea" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>Designed &amp; Maintained by Naman Agarwal &copy; 2026. Made with <i class="fa-solid fa-terminal"></i></div>
+  </footer>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/index.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 600,
+      once: true
+    });
   </script>
 </body>
 

@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Gallery | Naman Agarwal</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="assets/logo1.jpeg" />
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/colors.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/gallery.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  </head>
-  <body>
-    <header id="header" class="nav--container">
-      <div class="nav-left">
-        <a href="/" class="hyper-links-dark">Portfolio</a>
-      </div>
-    </header>
-    <div class="section--hero--gallery">
-      <div class="hero--gallery">
-        <p class="text--heading">Gallery</p>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Gallery | Naman Agarwal</title>
+  <meta name="description" content="Photography and visual gallery of Naman Agarwal" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="assets/logo1.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <link rel="stylesheet" href="css/colors.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="theme-dracula">
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="/" class="nav-brand">~/<span>naman-agarwal</span></a>
     </div>
-    <div class="section--gallery">
+    <div class="nav-right">
+      <a href="/" class="nav-link">Portfolio</a>
+      <a href="/readlist.html" class="nav-link">Readlist</a>
+      <a href="https://drive.google.com/file/d/1IkGeFUoFe8FUopzfCumllU9BJCneXIz6/view?usp=sharing" target="_blank" class="nav-link nav-cta"><i class="fa-solid fa-download"></i> Resume</a>
     </div>
-    <script src="js/gallery.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="section--hero--gallery" data-aos="fade-down">
+    <h1 class="section-title" style="font-size: 5rem; display: inline-block;">gallery</h1>
+  </div>
+
+  <!-- Dynamic Gallery Content Grid -->
+  <div class="section--gallery" data-aos="fade-up">
+    <!-- Items loaded dynamically via js/gallery.js -->
+  </div>
+
+  <footer>
+    <div>Designed &amp; Maintained by Naman Agarwal &copy; 2026. Made with <i class="fa-solid fa-heart text-red"></i> and <i class="fa-solid fa-terminal text-cyan"></i></div>
+  </footer>
+
+  <script src="js/gallery.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+
 </html>
