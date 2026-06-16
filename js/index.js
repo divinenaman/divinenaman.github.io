@@ -5,15 +5,15 @@ const fileSystem = {
   "about_me.md": {
     language: "markdown",
     content: `# Naman Agarwal
-## Software Development Engineer II @ Juspay
+## Senior Software Engineer @ Juspay | AI, Backend & Frontend
 
-I am a passionate Full-Stack Developer currently working as an SDE 2 at Juspay, where we build robust and scalable payment infrastructure. I take a bottom-up approach to learning—striving to understand tools from first principles, often reverse-engineering or building them from scratch (e.g., AI Agents, React, JSON parsers) to truly master them.
+I am a Senior Software Engineer specializing in AI Agents, Systems, and Frontend UI Frameworks. Currently working at Juspay, where I build autonomous LLM agent platforms (Godel AI), custom Model Context Protocol (MCP) systems, backend payment microservices, and custom virtual DOM frameworks. I take a bottom-up approach to engineering—striving to build robust systems from first principles.
 
 - Location: Bengaluru, Karnataka, India
 - Email: namanddev7@gmail.com
-- Current: Juspay SDE 2 (Trident 3DS, Godel AI Scraper Platform, Agentic Payments)
+- Current: Juspay SDE II (AI, Backend, & Frontend)
 - Education: B.Tech in CSE @ VIT Chennai (Tech Lead for VIT Chennai Android Club)
-- Key Skills: Rust, Haskell, Go, Functional Programming, Declarative Programming, Docker, LLMs`
+- Key Skills: AI Agents, LLMs, MCP, RAG, Rust, Haskell, PureScript, Go, Python, Cryptography`
   },
   "Note.md": {
     language: "markdown",
@@ -37,82 +37,73 @@ I am a passionate Full-Stack Developer currently working as an SDE 2 at Juspay, 
   "core_skills.json": {
     language: "json",
     content: `{
-  "languages": [
+  "ai_agents_ml": [
+    "LLMs (Claude/GPT-4)",
+    "AI Agent Orchestration",
+    "Model Context Protocol (MCP)",
+    "RAG & Embeddings",
+    "Federated Learning",
+    "Computer Vision & OCR",
+    "PyTorch / TensorFlow"
+  ],
+  "languages_backend": [
     "Rust",
     "Haskell",
     "Go",
     "Python",
-    "TypeScript",
-    "JavaScript",
-    "Java",
+    "Node.js",
     "C++"
   ],
-  "frontend": [
-    "React",
-    "React Native",
-    "Redux",
-    "HTML5",
-    "CSS3",
-    "Sass",
-    "Gatsby"
-  ],
-  "backend_db": [
-    "Node.js",
-    "Express",
-    "Flask",
-    "GraphQL",
+  "databases_cloud": [
     "PostgreSQL",
     "MongoDB",
-    "Hasura"
-  ],
-  "devops_cloud": [
-    "Docker",
+    "Redis",
     "AWS Lambda",
-    "AWS ECS",
-    "Git/GitHub",
-    "CI/CD Pipelines"
+    "Docker",
+    "Kubernetes",
+    "Nix",
+    "Git"
+  ],
+  "frontend": [
+    "TypeScript",
+    "React",
+    "React Native",
+    "Next.js"
   ]
 }`
   },
   "experience.log": {
     language: "bash",
-    content: `[2023-Present] JUSPAY - Software Development Engineer 2
-  * Trident Server: Led Rust port of a high-load 3DS payment server. Increased txn success by 2-3%.
-  * Godel AI: Architected AI-driven system to autonomously maintain OTP-page scrapers.
-  * Agentic Payments: Integrated payments workflows and product discovery via MCP AI Agents.
-  * DevOps: Configured and hosted critical microservices using Docker.
+    content: `[2022-Present] JUSPAY - SDE II (AI, Backend, & Frontend)
+  * Godel AI: Designed LLM selector generator with dashboard approvals and health-scoring self-healing.
+  * Agentic Payments: Built MCP servers to expose banking APIs; built integration debugging bot.
+  * Backend & Crypto: Decoupled AuthN/AuthZ in Euler microservices; built ECC/JWE cryptos in Rust 3DS server.
+  * UI Framework: Built widgets in PureScript for custom virtual DOM engine with Java reflection and JS OTA.
 
-[2022-2023] ZEEQ - Backend Developer
-  * Architected scalable backend services from the ground up utilizing Clean Architecture.
-  * Developed over 40% of the backend services, including custom RBAC authentication.
+[2021-2022] ZEEQ - Backend Engineer
+  * Architected backend services utilizing Clean Architecture; integrated Hasura GraphQL and PostgreSQL.
 `
   },
   "projects.yaml": {
     language: "yaml",
     content: `projects:
-  - name: "Text-to-Video Pipeline"
+  - name: "Baasha (AI Video API & MCP Server)"
     status: "Production"
-    description: "Fully autonomous video generation from text using AI Agents, hosted on AWS Lambda."
-    tech: ["Python", "LLMs", "AWS Lambda", "Embeddings", "APIs"]
-    demo: "https://www.youtube.com/shorts/GG5bko4Q8lM"
+    description: "Orchestrating collaborative AI agents (Google ADK) via custom MCP server and pgvector RAG (Living Bibles)."
+    tech: ["Python", "Google ADK", "MCP", "pgvector", "Replicate", "ElevenLabs"]
+    demo: "https://www.youtube.com/shorts/SSpNvivciqU"
 
   - name: "Family Tree Builder"
     status: "Completed"
-    description: "Data pipeline mapping 25,000+ relationships using Computer Vision & electoral data."
-    tech: ["Python", "Tesseract OCR", "Scrapy", "NetworkX"]
+    description: "Graph parsing engine mapping multi-generational family trees utilizing Tesseract OCR & Scrapy."
+    tech: ["Python", "Tesseract OCR", "Scrapy", "NetworkX", "Graph Parsing"]
     github: "https://github.com/divinenaman/family-tree-builder"
 
-  - name: "Invoice Central"
+  - name: "Face Recognition IoT Gateway"
     status: "Completed"
-    description: "Invoice billing web app for offline shops, optimizing queries with MongoDB aggregation."
-    tech: ["Node.js", "Express", "MongoDB", "React"]
-    github: "https://github.com/divinenaman/Invoice-Central"
-
-  - name: "Confab Video Chat"
-    status: "Completed"
-    description: "Video chat web app using WebRTC and WebSockets for full-duplex communication."
-    tech: ["JavaScript", "WebRTC", "WebSockets", "Node.js"]
-    github: "https://github.com/divinenaman/confab-video-chat-app"`
+    description: "Attendance system using Google FaceNet CNN model and MQTT brokers for real-time synchronization."
+    tech: ["Python", "FaceNet", "MQTT", "IoT Gateway", "PostgreSQL"]
+    github: "https://github.com/divinenaman/face-recognition-attendance-system"`
   },
   "contact_info.js": {
     language: "javascript",
@@ -460,8 +451,8 @@ function executeTerminalCommand(commandString, isUserCommand = true) {
       case "whoami":
         outputHTML = `
 <div><strong>Naman Agarwal</strong></div>
-<div class="text-grey">Software Development Engineer II @ Juspay</div>
-<p style="margin-top:0.5rem">Bottom-up engineer specializing in Rust, functional programming, payments systems, and high-performance backend layers. Tech Lead for VIT Chennai Android Club.</p>`;
+<div class="text-grey">Senior Software Engineer @ Juspay | AI, Backend &amp; Frontend</div>
+<p style="margin-top:0.5rem">Senior SDE specializing in AI Agents, LLM tool orchestration (MCP), systems cryptography in Rust, and custom virtual DOM frameworks in PureScript.</p>`;
         break;
         
       case "neofetch":
@@ -472,11 +463,11 @@ function executeTerminalCommand(commandString, isUserCommand = true) {
     <div><span>naman</span>@<span>juspay</span></div>
     <div>-------------------</div>
     <div><span>OS:</span> NamanOS v2.1.0 (Vim Minimalist)</div>
-    <div><span>Kernel:</span> Gemini-Agentic-1.5-Pro</div>
+    <div><span>Kernel:</span> Gemini-3.5-Flash</div>
     <div><span>Uptime:</span> 100%</div>
     <div><span>Shell:</span> Vim Bash Shell</div>
-    <div><span>Role:</span> Software Development Engineer II @ Juspay</div>
-    <div><span>Core Tech:</span> Rust, Haskell, Go, TypeScript, Docker</div>
+    <div><span>Role:</span> SDE II (AI, Backend, &amp; Frontend) @ Juspay</div>
+    <div><span>Core Tech:</span> AI Agents, LLMs, Rust, PureScript, Haskell</div>
     <div><span>Lines Coded:</span> 100k+</div>
   </div>
 </div>`;
@@ -491,10 +482,10 @@ function executeTerminalCommand(commandString, isUserCommand = true) {
 <div>nothing to commit, working tree clean</div>`;
         } else if (args[0] === "log") {
           outputHTML = `
-<div>* a4f9d0c - Refactored Trident 3DS server in Rust (Juspay)</div>
-<div>* 7c8b211 - Deployed Godel AI Agent scraper platform</div>
-<div>* bb4d99a - Built clean-architecture back-ends with Hasura (ZeeQ)</div>
-<div>* 5a9c02d - Designed automated duty allotment desktop app (GRP India)</div>`;
+<div>* 7c8b211 - Deployed Godel AI Agent scraper platform with LLM reasoning loops</div>
+<div>* 8d2e1fa - Deployed Agentic Payments tools via Model Context Protocol (MCP)</div>
+<div>* a4f9d0c - Refactored high-throughput Trident 3DS server in Rust (Juspay)</div>
+<div>* bb4d99a - Integrated Hasura GraphQL and PostgreSQL data archiving (ZeeQ)</div>`;
         } else {
           outputHTML = `<div>Usage: git status | git log</div>`;
         }
